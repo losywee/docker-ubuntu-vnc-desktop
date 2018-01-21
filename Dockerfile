@@ -1,4 +1,4 @@
-FROM nvidia/cuda:9.1-runtime
+FROM nvidia/cuda:9.1-base
 MAINTAINER Doro Wu <fcwu.tw@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
